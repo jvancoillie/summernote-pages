@@ -1,0 +1,56 @@
+.note-editor.note-frame.note-pages {
+  display: block;
+  .note-editing-area {
+    overflow: auto;
+    background-color: #6c757d;
+    .note-editable {
+      display: block;
+      margin: 1.5rem auto;
+      padding: 0;
+      overflow: auto;
+      border-radius: 0;
+      width: 100%;
+      >.page {
+        padding: 10px;
+        border: 1px solid #d3d3d3;
+        box-shadow: 0 0 0.5cm rgba(0, 0, 0, 0.5);
+        background: white;
+        margin-bottom: 15px;
+        display: block;
+        overflow: hidden;
+      }
+    }
+  }
+  .note-editing-area.portrait {
+    &:before {
+      content: "portrait";
+      font-size: 14px;
+      font-weight: 700;
+      color: #aaa;
+      position: absolute;
+      top: 1px;
+      right: 5px;
+    }
+  }
+  .note-editing-area.landscape {
+    &:before {
+      content: "landscape";
+      font-size: 14px;
+      font-weight: 700;
+      color: #aaa;
+      position: absolute;
+      top: 1px;
+      right: 5px;
+    }
+  }
+}
+
+.note-editor.note-frame {
+  .note-editing-area {
+    .note-editable {
+      overflow: auto;
+      border-radius: 0;
+      width: 100%;
+    }
+  }
+}
