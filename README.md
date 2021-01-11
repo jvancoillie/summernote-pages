@@ -2,7 +2,7 @@
 A plugin for the [Summernote](https://github.com/summernote/summernote/) WYSIWYG editor.
 
 summernote-pages offers a display allowing editing in A4 format (landscape or portrait) with an auto page break.
-
+see the [demo](https://jvancoillie.github.io/summernote-pages/)
 # Installation
 
 #### 1. Include files
