@@ -37,4 +37,4 @@ TODO
 
 # Thanks:
 - [Diemen Design](https://github.com/DiemenDesign/)
-    - Check out  other Summernote Plugins via our main Github page.
+    - Check out other Summernote Plugins via the main Github page.
