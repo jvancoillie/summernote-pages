@@ -1,3 +1,4 @@
+Work in progress .....
 # summernote-pages
 A plugin for the [Summernote](https://github.com/summernote/summernote/) WYSIWYG editor.
 
